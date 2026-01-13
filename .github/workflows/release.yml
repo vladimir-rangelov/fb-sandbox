@@ -37,8 +37,7 @@ jobs:
       - name: Set up NPM token
         env:
           NPM_TOKEN: ${{ secrets.NPM_RELEASE_TOKEN  }} # <-- allow npm publish for each workspace
-        run: 'echo "//registry.npmjs.org/:_auth=${NPM_TOKEN}" > .npmrc'
-        #run: 'echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc'
+        run: 'echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc'
 
       - name: Install npm dependencies
         run: |
