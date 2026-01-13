@@ -41,7 +41,7 @@ jobs:
 
       - name: Install npm dependencies
         run: |
-          npm ci
+          npm install
 
       # Set NPM_DIST_TAGS and DOCS_TAG if applicable based on branch
       - name: Set main tags
