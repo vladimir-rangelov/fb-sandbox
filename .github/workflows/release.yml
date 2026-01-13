@@ -88,4 +88,4 @@ jobs:
       - name: Publish Firebolt SDKs to NPM
         env:
           NPM_TOKEN: ${{ secrets.NPM_RELEASE_TOKEN  }} # <-- Allows semantic-release to publish to npm without 2 factor auth.
-        run: npm publish --tag $NPM_DIST_TAG --workspaces
+        run: npm publish --//registry.npmjs.org/:_authToken=$NPM_TOKEN --tag $NPM_DIST_TAG --workspaces --access public

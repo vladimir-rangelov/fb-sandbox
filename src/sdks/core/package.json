@@ -1,6 +1,6 @@
 {
 	"name": "@fb-sandbox/core-client",
-	"version": "0.5.0-next.2",
+	"version": "0.5.0-next.3",
 	"description": "Firebolt sandbox client",
 	"main": "./dist/lib/firebolt.mjs",
 	"types": "./dist/lib/firebolt.d.ts",
