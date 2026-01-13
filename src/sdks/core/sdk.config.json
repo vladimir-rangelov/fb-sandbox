@@ -1,0 +1,13 @@
+{
+    "info": {
+        "title": "Firebolt Sandbox"
+    },
+    "methods": [
+        {
+            "module": "Sandbox",
+            "use": [
+                "xrn:firebolt:capability:test-method"
+            ]
+        }
+    ]
+}
