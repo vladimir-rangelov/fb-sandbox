@@ -33,14 +33,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/vladimir-rangelov/fb-sandbox-client",
+		"url": "git+https://github.com/vladimir-rangelov/fb-sandbox",
 		"directory": "src/sdks/core"
 	},
 	"author": "",
 	"bugs": {
-		"url": "https://github.com/vladimir-rangelov/fb-sandbox-client/issues"
+		"url": "https://github.com/vladimir-rangelov/fb-sandbox/issues"
 	},
-	"homepage": "https://github.com/vladimir-rangelov/fb-sandbox-client#readme",
+	"homepage": "https://github.com/vladimir-rangelov/fb-sandbox#readme",
 	"devDependencies": {
 		"jest": "^28.1.0",
 		"jest-environment-jsdom": "^28.1.3",
